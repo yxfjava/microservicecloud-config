@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+    application:
+      name: microservicecloud-config-yxf-dev #测试2222888
+---
+spring:
+  profiles: test
+    application:
+      name: microservicecloud-config-yxf-test 
